@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Convite de Aniversário</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #007BFF;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 300px;
+      display: block;
+      margin-top: 10px;
+    }
+    section {
+      margin-top: 40px;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+    }
+    form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .descricao {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+      max-width: 600px;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Convite de Aniversário</h1>
+  <p>Bem-vindo ao convite digital! Use o menu para navegar:</p>
+
+  <nav>
+    <a href="#principal">Página Principal</a>
+    <a href="#local">Local</a>
+    <a href="#presentes">Presentes</a>
+    <a href="#roupa">Roupa</a>
+    <a href="#confirmar">Confirmar Presença</a>
+  </nav>
+
+  <section id="principal">
+    <h2>Página Principal</h2>
+    <img src="https://bordalo.observador.pt/v2/q:60/rs:fill:980/c:770:433:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2016/09/29124952/meme_770x433_acf_cropped.jpg" alt="Festa de Aniversário">
+    <p class="descricao">Seja bem-vindo à nossa festa! Estamos ansiosos para comemorar juntos.</p>
+  </section>
+
+  <section id="local">
+    <h2>Local</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJA8uG1t1YkecWX7b4oo1oxY37ovjMRom2g&s" alt="Local da festa">
+    <p class="descricao">A festa será realizada no salão de festas do condomínio, com fácil acesso e estacionamento.</p>
+  </section>
+
+  <section id="presentes">
+    <h2>Presentes</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUI47ZdFyQIRuhPqwrfjZerBBVoMDgYXNAYw&s" alt="Presentes">
+    <p class="descricao">Aqui estão algumas sugestões de presentes para tornar a festa ainda mais especial.</p>
+  </section>
+
+  <section id="roupa">
+    <h2>Roupa</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTELNHfYnU52MjAkfNq2Pki2bDu-XX99R6E-g&s" alt="Roupa para a festa">
+    <p class="descricao">Sugerimos um traje casual e confortável para aproveitar a festa ao máximo.</p>
+  </section>
+
+  <section id="confirmar">
+    <h2>Confirmar Presença</h2>
+    <form>
+      <label>Seu nome:<br>
+        <input type="text" name="nome" required>
+      </label>
+      <label>Vai comparecer?<br>
+        <select name="presenca" required>
+          <option value="">Selecione</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+    <img src="https://t.ctcdn.com.br/EPYGStiMMYjd-W0Y7C5nDpwDVWk=/640x360/smart/i598772.jpeg" alt="Confirmar presença">
+    <p class="descricao">Confirme sua presença para que possamos organizar tudo com carinho.</p>
+  </section>
+</body>
+</html>
